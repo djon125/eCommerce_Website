@@ -9,19 +9,30 @@
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="nav">
             <a href="">HOME</a> |
             <a href="#aboutus">ABOUT</a> |
             <a href="#ourproducts">PRODUCTS</a> |
             <a href="#contactus">CONTACT</a> |
-            <a href="">CART</a> |
         </nav>
+        <div>
+            <h3>CARA<img src="./UX-HTML-CSS/icons8-pottery-96.png" alt="cara cara picture"> CARA</h3>
+        </div>
+        <div class="search_cart">
+            <input type="text" id="search" name="search" value="search">
+            <span>CART (0)</span>
+        </div>
     </header>
     <main>
         <section class="ceramic_top">
-            <p>
-                Ceramics crafted by hand... ...from the ground up
-            </p>
+            <div>
+                <p>Ceramics crafted by hand...</p>
+            </div>
+            <div>
+                <p class="para">
+                ...from the ground up
+                </p>
+                </div>
         </section>
         <section class="about_us" id="aboutus">
             <h1>ABOUT US</h1>
@@ -33,7 +44,10 @@
                 faucibus nisl tincidunt. Facilisis mauris sit amet massa. Senectus et netus et malesuada fames
                 ac turpis egestas maecenas. Odio aenean sed adipiscing diam donec adipiscing tristique
                 risus nec. Sagittis id consectetur purus ut faucibus. Elit duis tristique sollicitudin nibh sit
-                amet commodo.
+                amet commodo.</p>
+
+            <br>
+            <p>
                 Nulla porttitor massa id neque aliquam
                 vestibulum morbi. Facilisi nullam vehicula
                 ipsum a arcu cursus vitae congue. Nam libero
@@ -55,15 +69,177 @@
         <section class="our_products" id="ourproducts">
             <h1>OUR PRODUCTS</h1>
             <hr>
-            <img src="./UX-HTML-CSS/tom-crew-7HuTGlUfQSo-unsplash.jpg" alt="mundo bowls" class="image3">
-            <img src="./UX-HTML-CSS/oriento-maVIpNNtmlQ-unsplash.jpg" alt="natureza vase" class="image4">
-            <img src="./UX-HTML-CSS/tom-crew-bgIO-u4GEfI-unsplash.jpg" alt="feira bowls" class="image5">
-            <img src="./UX-HTML-CSS/tom-crew-3uwu5K0RtaE-unsplash.jpg" alt="natureza pots" class="image6">
-            <img src="./UX-HTML-CSS/linh-le-a0rE64YJDA4-unsplash.jpg" alt="pedra vase" class="image7">
-            <img src="./UX-HTML-CSS/tom-crew-oiZAQvxTcYQ-unsplash.jpg" alt="viaja pots" class="image8">
-            <img src="./UX-HTML-CSS/tom-crew-YA2E3d7a9Wo-unsplash.jpg" alt="servico plates" class="image9">
-            <img src="./UX-HTML-CSS/oriento-l0ah3UBLppo-unsplash.jpg" alt="campeao vase" class="image9">
-            <img src="./UX-HTML-CSS/tom-crew-SITGdvztUdg-unsplash.jpg" alt="troca bowls" class="image9">
+            <div class="product_container">
+                <div class="products">
+                    <a><img src="./UX-HTML-CSS/tom-crew-7HuTGlUfQSo-unsplash.jpg" alt="mundo bowls" class="image"></a>
+                    <br>
+                    <strong>MUNDO BOWLS</strong>
+                    <span>$48.00</span>
+                    <p>
+                        Nulla porttitor massa id neque aliquam
+                        vestibulum morbi. Facilisi nullam vehicula
+                        ipsum a arcu cursus vitae congue. 
+                    </p>
+                    <a href=""> LEARN MORE</a>
+                    <span><button type="button">ADD TO CART</button> </span>
+
+                </div>
+                <div class="products">
+                    <a><img src="./UX-HTML-CSS/oriento-maVIpNNtmlQ-unsplash.jpg" alt="natureza vase" class="image"></a>
+                    <br>
+                    <strong>MUNDO BOWLS</strong>
+                    <span>$48.00</span>
+                    <p>
+                        Nulla porttitor massa id neque aliquam
+                        vestibulum morbi. Facilisi nullam vehicula
+                        ipsum a arcu cursus vitae congue. 
+                    </p>
+                    <a href=""> LEARN MORE</a>
+                    <span><button type="button">ADD TO CART</button> </span>
+
+                </div>
+                <div class="products">
+                    <a><img src="./UX-HTML-CSS/tom-crew-bgIO-u4GEfI-unsplash.jpg" alt="feira bowls" class="image"></a>
+                    <br>
+                    <strong>MUNDO BOWLS</strong>
+                    <span>$48.00</span>
+                    <p>
+                        Nulla porttitor massa id neque aliquam
+                        vestibulum morbi. Facilisi nullam vehicula
+                        ipsum a arcu cursus vitae congue. 
+                    </p>
+                    <a href=""> LEARN MORE</a>
+                    <span><button type="button">ADD TO CART</button> </span>
+
+                </div>
+                <div class="products">
+                    <a><img src="./UX-HTML-CSS/tom-crew-3uwu5K0RtaE-unsplash.jpg" alt="natureza pots" class="image"></a>
+                    <br>
+                    <strong>MUNDO BOWLS</strong>
+                    <span>$48.00</span>
+                    <p>
+                        Nulla porttitor massa id neque aliquam
+                        vestibulum morbi. Facilisi nullam vehicula
+                        ipsum a arcu cursus vitae congue. 
+                    </p>
+                    <a href=""> LEARN MORE</a>
+                    <span><button type="button">ADD TO CART</button> </span>
+
+                </div>
+                <div class="products">
+                    <a><img src="./UX-HTML-CSS/linh-le-a0rE64YJDA4-unsplash.jpg" alt="pedra vase" class="image"></a>
+                    <br>
+                    <strong>MUNDO BOWLS</strong>
+                    <span>$48.00</span>
+                    <p>
+                        Nulla porttitor massa id neque aliquam
+                        vestibulum morbi. Facilisi nullam vehicula
+                        ipsum a arcu cursus vitae congue. 
+                    </p>
+                    <a href=""> LEARN MORE</a>
+                    <span><button type="button">ADD TO CART</button> </span>
+
+                </div>
+                <div class="products">
+                    <a><img src="./UX-HTML-CSS/tom-crew-oiZAQvxTcYQ-unsplash.jpg" alt="viaja pots" class="image"></a>
+                    <br>
+                    <strong>MUNDO BOWLS</strong>
+                    <span>$48.00</span>
+                    <p>
+                        Nulla porttitor massa id neque aliquam
+                        vestibulum morbi. Facilisi nullam vehicula
+                        ipsum a arcu cursus vitae congue. 
+                    </p>
+                    <a href=""> LEARN MORE</a>
+                    <span><button type="button">ADD TO CART</button> </span>
+
+                </div>
+                <div class="products">
+                    <a><img src="./UX-HTML-CSS/tom-crew-YA2E3d7a9Wo-unsplash.jpg" alt="servico plates" class="image"></a>
+                    <br>
+                    <strong>MUNDO BOWLS</strong>
+                    <span>$48.00</span>
+                    <p>
+                        Nulla porttitor massa id neque aliquam
+                        vestibulum morbi. Facilisi nullam vehicula
+                        ipsum a arcu cursus vitae congue. 
+                    </p>
+                    <a href=""> LEARN MORE</a>
+                    <span><button type="button">ADD TO CART</button> </span>
+
+                </div>
+                <div class="products">
+                    <a><img src="./UX-HTML-CSS/oriento-l0ah3UBLppo-unsplash.jpg" alt="campeao vase" class="image"></a>
+                    <br>
+                    <strong>MUNDO BOWLS</strong>
+                    <span>$48.00</span>
+                    <p>
+                        Nulla porttitor massa id neque aliquam
+                        vestibulum morbi. Facilisi nullam vehicula
+                        ipsum a arcu cursus vitae congue. 
+                    </p>
+                    <a href=""> LEARN MORE</a>
+                    <span><button type="button">ADD TO CART</button> </span>
+
+                </div>
+                <div class="products">
+                    <a><img src="./UX-HTML-CSS/tom-crew-SITGdvztUdg-unsplash.jpg" alt="troca bowls" class="image"></a>
+                    <br>
+                    <strong>MUNDO BOWLS</strong>
+                    <span>$48.00</span>
+                    <p>
+                        Nulla porttitor massa id neque aliquam
+                        vestibulum morbi. Facilisi nullam vehicula
+                        ipsum a arcu cursus vitae congue. 
+                    </p>
+                    <a href=""> LEARN MORE</a>
+                    <span><button type="button">ADD TO CART</button> </span>
+            </section>
+                <section class="contact_us" id="contactus">
+                    <div>
+                    <h1>CONTACT US</h1>
+                    <hr>
+                    <p>EMAIL</p>
+                    <input type="email" name="email" value="enter email">
+                    </div>
+                    <p>MESSAGE</p>
+                    <div>
+                    <input type="email" name="email" value="type message here">
+                    </div>
+     
+
+                </section>
+
+<!-- 
+                <div class="search_cart">
+                    <input type="text" id="search" name="search" value="search">
+                    <span>CART (0)</span>
+                </div>
+ 
+
+
+
+ -->
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+
+
+
+            
+            
+            
+            
             <p>test test test</p>
         </section>
         <section class="contact_us" id="contactus">
@@ -77,4 +253,4 @@
 </body>
 </html>
 
-<!-- https://onecompiler.com/html/3yb6wwvwx -->
+https://onecompiler.com/html/3yb6wwvwx -->
