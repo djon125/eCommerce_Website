@@ -8,13 +8,15 @@
 
 nav {
     text-decoration: none;
+    display: flex;
+    align-items: center;
 }
 
 html {
     box-sizing: border-box;
     font-size: auto;
     font-family: Tahoma, Verdana, sans-serif;
-    background-color: bisque;
+    background-color: #faf9f6;
    }
 
 
@@ -30,8 +32,16 @@ html {
     background-repeat: no-repeat;
 }
 
+.image1{
+    height: 247px;
+    float: left
+}
 
+.image2 {
 
+    height: 289px;
+    float: right 
+}
 .product_container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -43,14 +53,18 @@ html {
 div h3 {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .search_cart {
     display: flex;
-    justify-content:right;
+    justify-content: right;
+    align-items: center;
 }
 
-
+.logo_image {
+    height: 40px;
+}
 
 .image {
 width: 275px;
@@ -62,64 +76,28 @@ height: 240px;
     justify-content: right;
 }
 
-
-/* .about_us h1 {
-    height: 100px;
-    width: 100%;
-    font-size: xxx-large;
-    margin: 50px;
-}
-
-.about_us p {
-    height: 557px;
-}
-
-.about_us hr {
-    border: 4px solid black;
-    width: 50%;
-}
-
-
-.image1 {
-    height: 26rem;
-    width: 22rem;
-    float:left;
-    
-}
-
-.image2 {
-    height: 26rem;
-    width: 22rem;
-    float:right;
-}
-
-.our_products h1 {
-    height: 100px;
-    width: 100%;
-    font-size: xxx-large;
-    margin: 50px;
-}
-.our_products img {
+.navbar {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    height: 20rem;
-    width: 20rem;
+    justify-content: space-between;  
+}
+
+.section_head {
+    height: 7px;
+    background-color: black;
 }
 
 
-.our_products hr {
-    border: 4px solid black;
-    width: 50%;
+footer {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 31px;
 }
 
-.contact_us hr {
-    border: 4px solid black;
-    width: 50%;
-} */
+.our_products{
+    margin: 99px;
+}
 
-
-/* display: flex;
-flex-direction: row;
-flex-wrap: wrap; 
-Trying to get flex for our products*/
+.footer_image{
+    background-color: black;
+}

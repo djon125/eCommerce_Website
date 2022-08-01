@@ -8,21 +8,22 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
+    <header class="navbar">
         <nav class="nav">
-            <a href="">HOME</a> |
+            <a href="#">HOME</a> |
             <a href="#aboutus">ABOUT</a> |
             <a href="#ourproducts">PRODUCTS</a> |
             <a href="#contactus">CONTACT</a> |
         </nav>
         <div>
-            <h3>CARA<img src="./UX-HTML-CSS/icons8-pottery-96.png" alt="cara cara picture"> CARA</h3>
+            <h3>CARA<img src="./UX-HTML-CSS/icons8-pottery-96.png" alt="cara cara picture" class ="logo_image"> CARA</h3>
         </div>
         <div class="search_cart">
             <input type="text" id="search" name="search" value="search">
             <span>CART (0)</span>
         </div>
     </header>
+    <hr>
     <main>
         <section class="ceramic_top">
             <div>
@@ -36,7 +37,7 @@
         </section>
         <section class="about_us" id="aboutus">
             <h1>ABOUT US</h1>
-            <hr>
+            <hr class="section_head">
             <img src="./UX-HTML-CSS/Vase_Dame_2048x2048.jpg" alt="Picture of Vase" class="image1">
             <img src="./UX-HTML-CSS/Cylinder_unglazed3_2048x2048.jpg" alt="'Picture of tall thin plant" class="image2">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
@@ -68,7 +69,7 @@
         </section>
         <section class="our_products" id="ourproducts">
             <h1>OUR PRODUCTS</h1>
-            <hr>
+            <hr class="section_head">
             <div class="product_container">
                 <div class="products">
                     <a><img src="./UX-HTML-CSS/tom-crew-7HuTGlUfQSo-unsplash.jpg" alt="mundo bowls" class="image"></a>
@@ -80,7 +81,7 @@
                         vestibulum morbi. Facilisi nullam vehicula
                         ipsum a arcu cursus vitae congue. 
                     </p>
-                    <a href=""> LEARN MORE</a>
+                    <a href="#"> LEARN MORE</a>
                     <span><button type="button">ADD TO CART</button> </span>
 
                 </div>
@@ -108,7 +109,7 @@
                         vestibulum morbi. Facilisi nullam vehicula
                         ipsum a arcu cursus vitae congue. 
                     </p>
-                    <a href=""> LEARN MORE</a>
+                    <a href="#"> LEARN MORE</a>
                     <span><button type="button">ADD TO CART</button> </span>
 
                 </div>
@@ -136,7 +137,7 @@
                         vestibulum morbi. Facilisi nullam vehicula
                         ipsum a arcu cursus vitae congue. 
                     </p>
-                    <a href=""> LEARN MORE</a>
+                    <a href="#"> LEARN MORE</a>
                     <span><button type="button">ADD TO CART</button> </span>
 
                 </div>
@@ -150,7 +151,7 @@
                         vestibulum morbi. Facilisi nullam vehicula
                         ipsum a arcu cursus vitae congue. 
                     </p>
-                    <a href=""> LEARN MORE</a>
+                    <a href="#"> LEARN MORE</a>
                     <span><button type="button">ADD TO CART</button> </span>
 
                 </div>
@@ -164,7 +165,7 @@
                         vestibulum morbi. Facilisi nullam vehicula
                         ipsum a arcu cursus vitae congue. 
                     </p>
-                    <a href=""> LEARN MORE</a>
+                    <a href="#"> LEARN MORE</a>
                     <span><button type="button">ADD TO CART</button> </span>
 
                 </div>
@@ -178,12 +179,14 @@
                         vestibulum morbi. Facilisi nullam vehicula
                         ipsum a arcu cursus vitae congue. 
                     </p>
-                    <a href=""> LEARN MORE</a>
+                    <a href="#"> LEARN MORE</a>
                     <span><button type="button">ADD TO CART</button> </span>
 
                 </div>
                 <div class="products">
-                    <a><img src="./UX-HTML-CSS/tom-crew-SITGdvztUdg-unsplash.jpg" alt="troca bowls" class="image"></a>
+                    <div>
+                        <a><img src="./UX-HTML-CSS/tom-crew-SITGdvztUdg-unsplash.jpg" alt="troca bowls" class="image"></a>
+                    </div>
                     <br>
                     <strong>MUNDO BOWLS</strong>
                     <span>$48.00</span>
@@ -192,65 +195,26 @@
                         vestibulum morbi. Facilisi nullam vehicula
                         ipsum a arcu cursus vitae congue. 
                     </p>
-                    <a href=""> LEARN MORE</a>
+                    <a href="#"> LEARN MORE</a>
                     <span><button type="button">ADD TO CART</button> </span>
-            </section>
-                <section class="contact_us" id="contactus">
-                    <div>
-                    <h1>CONTACT US</h1>
-                    <hr>
-                    <p>EMAIL</p>
-                    <input type="email" name="email" value="enter email">
-                    </div>
-                    <p>MESSAGE</p>
-                    <div>
-                    <input type="email" name="email" value="type message here">
-                    </div>
-     
-
-                </section>
-
-<!-- 
-                <div class="search_cart">
-                    <input type="text" id="search" name="search" value="search">
-                    <span>CART (0)</span>
-                </div>
- 
-
-
-
- -->
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- 
-
-
-
-            
-            
-            
-            
-            <p>test test test</p>
         </section>
         <section class="contact_us" id="contactus">
-            <h1>CONTACT US</h1>
-            <hr>
-            <p>Email + Message + How to add send box</p>
+            <div>
+                    <h1>CONTACT US</h1>
+                    <hr class="section_head">
+                    <p>EMAIL</p>
+                    <input type="email" name="email" value="enter email">
+            </div>
+            <p>MESSAGE</p>
+            <div>
+                    <input type="email" name="email" value="type message here">
+            </div>
         </section>
-  
+
     </main>
-    <footer>CARA CARA @COPYRIGHT 2015- 2020</footer>
+    <div>
+    <footer><img src="./UX-HTML-CSS/icons8-youtube-96.png" alt="youtue" class="footer_image"><img src="./UX-HTML-CSS/icons8-facebook-96 (1).png" alt="facebook" class="footer_image"> CARA <img src="./UX-HTML-CSS/icons8-pottery-96.png" alt="cara cara picture" class ="logo_image"> CARA @COPYRIGHT 2015- 2020<img src="./UX-HTML-CSS/icons8-twitter-96.png" alt="twitter" class="footer_image"> <img src="./UX-HTML-CSS/icons8-instagram-96.png" alt="instagram" class="footer_image"></footer>
+    </div>
 </body>
 </html>
 
-https://onecompiler.com/html/3yb6wwvwx -->
